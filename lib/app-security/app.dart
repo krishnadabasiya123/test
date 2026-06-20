@@ -8,6 +8,7 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
 <<<<<<< HEAD
+<<<<<<< HEAD
       appBar: AppBar(title: Text("hyy1234"), centerTitle: false),
 =======
       appBar: AppBar(title: Text("hyy11111123"), centerTitle: false),
@@ -16,6 +17,10 @@ class MyWidget extends StatelessWidget {
           
         ],
       ),
+=======
+      appBar: AppBar(title: Text("hy there123"), centerTitle: true),
+      body: Column(children: [Container(alignment: Alignment.bottomCenter)]),
+>>>>>>> branch1
     );
   }
 }
