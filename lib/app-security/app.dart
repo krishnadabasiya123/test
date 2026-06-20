@@ -7,7 +7,11 @@ class MyWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+<<<<<<< HEAD
       appBar: AppBar(title: Text("hyy1234"), centerTitle: false),
+=======
+      appBar: AppBar(title: Text("hyy11111123"), centerTitle: false),
+>>>>>>> branch1
       body: Column(children: [
           
         ],
