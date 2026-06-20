@@ -1,0 +1,42 @@
+https://medium.com/flutter-community/how-to-create-publish-and-manage-flutter-packages-b4f2cd2c6b90
+
+Getx utility
+
+1 - snackbar
+2 - gefaultdialogue
+
+
+route managemnet 
+
+1) get.toNamed -> push new screen
+2) get.offAndToNamed -> replacement
+
+
+
+
+language chnage check - 
+1) create file for keys -> extends Translations (all languages in one file)
+    GetMaterialApp(
+      translations: Messages(), // Your translations
+      locale: Locale('en', 'US'), // Default language
+      fallbackLocale: Locale('en', 'US'), // Backup language if current fails
+      home: LanguageView(),
+    ),
+
+    
+
+  getBuilder 
+
+  obx -> rebuild the widgets when rx value chanhges
+
+  GetStorage() -> 
+
+
+
+  theme chanhges
+  app localization
+  crud
+
+
+getxService - > use where API clients, Auth services, Database/Storage.
+getxController - > use when use in one page data
